@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+}
+
+header{
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    position: sticky;
+    background-color: #5f59c9;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#senai{
+    width: 18%;
+    float: left;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    padding: 20px;
+    font-size: 100%;
+}
+
+li a{
+    font-family: Verdana;
+    text-decoration:none;
+    font-weight:bold;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    padding: 35px;
+}
+
+#projeto{
+    width: 400px;
+}
+
+.mural{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+#postit{
+    border: 2px solid rgb(248, 231, 134);
+    background-color: rgb(248, 231, 134);
+    margin-top: 15%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#postit p{
+    margin-top: 4%;
+}
+
+body{
+    margin-bottom: 5%;
+}
+
+#bodyPerfil{
+    background-color: rgb(252, 252, 252);
+}
+
+#box{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 600px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#xperience{
+    padding-top: 9%;
+    padding-left: 20px;
+    width: 330px;
+}
+
+#avatar{
+    width: 120px;
+    padding-left: 80px;
+}
+
+.info h2{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 28px;
+}
+
+.info p{
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 17px;
+}
+
+.galerybox{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.galerybox h2{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#imglogo{
+    width: 350px;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    width: 20px;
+}
+
+#img1, #img2, #img3{
+    border-radius: 5px;
+    width: 220px;
+    height: 110px;
+}
